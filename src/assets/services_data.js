@@ -17,12 +17,6 @@ const Services_Data = [
     s_desc:
       "Developing secure and scalable backend systems"
   },
-  {
-    s_no: "04",
-    s_name: "AI-Powered Web Applications",
-    s_desc:
-      "Integrating AI features such as chatbots, document analysis, etc"
-  },
 ];
 
 export default Services_Data;

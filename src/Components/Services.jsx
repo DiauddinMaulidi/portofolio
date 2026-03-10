@@ -5,7 +5,7 @@ const Services = () => {
   return (
     <div id='services' className='services flex flex-col items-center justify-center gap-10 my-16 mx-5 sm:mx-40'>
       <div className="services-title relative">
-        <h1 className='py-0 px-7.5 text-[50px] font-semibold'>My Services</h1>
+        <h1 className='py-0 px-7.5 text-[45px] sm:text-[50px] font-semibold'>My Services</h1>
         <img src={theme_pattern} className='absolute w-50 bottom-0 right-5 -z-1' alt="" />
       </div>
       <div className="services-container grid grid-cols-1 sm:grid-cols-3 gap-5 mb-15">

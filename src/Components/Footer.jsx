@@ -1,4 +1,4 @@
-import footer_logo from "../assets/footer_logo.svg"
+// import footer_logo from "../assets/footer_logo.svg"
 import user_icon from "../assets/user_icon.svg"
 
 const Footer = () => {
@@ -6,10 +6,10 @@ const Footer = () => {
     <div className='footer my-10 mx-5 sm:mx-40 flex flex-col gap-6.25'>
       <div className="footer-top flex sm:flex-row flex-col justify-between">
         <div className="footer-top-left text-[18px] mb-10 sm:mb-0 max-w-75">
-            <img src={footer_logo} alt="" />
+            {/* <img src={footer_logo} alt="" /> */}
             <p>thank you for every day. don't forget to be grateful</p>
         </div>
-        <div className="footer-top-right flex items-center gap-3 sm:gap-7.5">
+        <div className="footer-top-right flex flex-col sm:flex-row items-center gap-3 sm:gap-7.5">
             <div className="footer-email-input flex gap-30px py-3.75 px-5 rounded-[50px] bg-[#32323B] pr-20 hover:border-2">
                 <img src={user_icon} alt="" />
                 <input type="email" placeholder="Enter your email" className="outline-0 border-none bg-transparent text-[#a0a0a0] text-[15px]" />

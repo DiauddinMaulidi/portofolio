@@ -1,6 +1,7 @@
 import theme_pattern from "../assets/theme2.svg"
 import mywork_data from "../assets/mywork_data"
 import arrow_icon from "../assets/arrow_icon.svg"
+import { Link } from "react-router-dom"
 
 const MyWork = () => {
   return (
@@ -14,10 +15,10 @@ const MyWork = () => {
           return <img key={index} src={work.w_img} className="box-border hover:transition duration-300 cursor-pointer transform hover:scale-[1.05] hover:border-4 hover:border-[#16FF00] rounded-[10px]" alt="" />
         })}
       </div>
-      <div className="mywork-showmore flex gap-3.75 rounded-[50px] py-2 px-6 border-2 border-white text-[20px] font-medium mb-15 cursor-pointer hover:gap-6.25 hover:transition-all duration-500">
+      <Link to="/dashboard" className="flex gap-3.75 rounded-[50px] py-2 px-6 border-2 border-white text-[20px] font-medium mb-15 cursor-pointer hover:gap-6.25 hover:transition-all duration-500">
         <p>Show More</p>
         <img src={arrow_icon} alt="" />
-      </div>
+      </Link>
     </div>
   )
 }
