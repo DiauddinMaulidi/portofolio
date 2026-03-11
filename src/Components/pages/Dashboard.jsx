@@ -39,6 +39,9 @@ const Dashboard = () => {
                     <Link to="/dashboard/paper">
                         <button onClick={() => setActive("paper")} className={`w-full text-start p-3 my-3 cursor-pointer ${active === "paper" ? "border-l-4 border-[#16FF00] bg-linear-to-r from-[#24581f] from-[0.37%] to-transparent to-[102.09%]" : "bg-transparent"}`}>Paper</button>
                     </Link>
+                    <Link to="/dashboard/certificate">
+                        <button onClick={() => setActive("certificate")} className={`w-full text-start p-3 my-3 cursor-pointer ${active === "certificate" ? "border-l-4 border-[#16FF00] bg-linear-to-r from-[#24581f] from-[0.37%] to-transparent to-[102.09%]" : "bg-transparent"}`}>Certificate</button>
+                    </Link>
                 </div>
                 <div className="flex-1 overflow-y-auto p-5">
                     <Outlet />

@@ -14,6 +14,7 @@ import Project from './Components/pages/Project'
 import Paper from './Components/pages/Paper'
 import Result from './Components/pages/Result'
 import NotFound from './Components/NotFound'
+import Certificate from './Components/pages/Certificate'
 
 const App = () => {
   return (
@@ -36,9 +37,10 @@ const App = () => {
           <Route path='/dashboard' element={<Project />} />
           <Route path='/dashboard/experience' element={<Experience />} />
           <Route path='/dashboard/paper' element={<Paper />} />
+          <Route path='/dashboard/certificate' element={<Certificate />} />
         </Route>
         
-        <Route path='/dashboard/result/:name' element={<Result />} />
+        <Route path='/dashboard/result/:slug' element={<Result />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
       </div>

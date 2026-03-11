@@ -7,7 +7,7 @@ export function CardImage() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {experiences.map((experience, index) => (
-            <Card className="overflow-hidden pt-0">
+            <Card className="overflow-hidden pt-0 hover:scale-[1.02] transition duration-300">
                 <div key={index} className="relative">
                     <div className="absolute inset-0 z-30 aspect-video" />
                     <img
@@ -24,9 +24,9 @@ export function CardImage() {
                             {experience.w_des}
                         </CardDescription>
                     </CardHeader>
-                    <CardFooter>
+                    {/* <CardFooter>
                         <Button className="w-full cursor-pointer">View Event</Button>
-                    </CardFooter>
+                    </CardFooter> */}
                 </div>
             </Card>
         ))}
