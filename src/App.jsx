@@ -15,10 +15,12 @@ import Paper from './Components/pages/Paper'
 import Result from './Components/pages/Result'
 import NotFound from './Components/NotFound'
 import Certificate from './Components/pages/Certificate'
+import { Analytics } from "@vercel/analytics/react"
 
 const App = () => {
   return (
     <BrowserRouter>
+      <Analytics />
       <BackgroundBeams className="fixed inset-0 -z-10" />
       <div className="relative z-10">
       <Routes>
