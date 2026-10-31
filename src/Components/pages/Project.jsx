@@ -28,7 +28,7 @@ const Project = () => {
           <img
             src={fire}
             alt=""
-            className={`transition-all duration-300 ${active === "mobile" ? "w-5 opacity-100 scale-100" : "w-0 opacity-0 scale-50 bg-red-500"}`}
+            className={`transition-all duration-300 ${active === "mobile" ? "w-5 opacity-100 scale-100" : "w-0 opacity-0 scale-50"}`}
           />
           <p>Mobile Dev</p>
         </button>

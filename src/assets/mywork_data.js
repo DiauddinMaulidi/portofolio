@@ -1,5 +1,6 @@
 import pdfpod from "../assets/project1.png";
 import sid from "../assets/project2.jpg";
+import skripsi from "../assets/skripsi.png";
 
 const mywork_data = [
   {
@@ -37,6 +38,22 @@ const mywork_data = [
             Sistem ini dirancang sebagai aplikasi berbasis web yang memungkinkan perangkat desa untuk mengelola berbagai informasi penting seperti data penduduk, berita desa, kegiatan desa, serta layanan administrasi secara terpusat. Selain itu, masyarakat juga dapat mengakses informasi desa secara mudah melalui platform ini tanpa harus datang langsung ke kantor desa.
 
             Dengan adanya sistem ini, diharapkan proses pengelolaan data dan penyebaran informasi di Desa Tembeng Putik dapat menjadi lebih efisien, transparan, dan terorganisir, serta mampu mendukung upaya digitalisasi layanan pemerintahan di tingkat desa.
+        `,
+  },
+  {
+    w_no: 3,
+    w_name: "Projek skripsi",
+    slug: "Implementasi Machine Learning untuk Rekomendasi Pemupukan Tanaman Berdasarkan Data  Sensor Tanah Berbasis IoT",
+    w_img: skripsi,
+    w_jenis: "web",
+    w_demo: "",
+    w_code: "https://github.com/DiauddinMaulidi/sistem-rekomendasi",
+    w_desc: `
+            • Judul skripsi saya adalah Implementasi Machine Learning untuk Rekomendasi Pemupukan Tanaman Berdasarkan Data  Sensor Tanah Berbasis IoT
+            • Mengembangkan model machine learning untuk menghasilkan rekomendasi pemupukan tanaman berdasarkan data sensor tanah. 
+            • Mengintegrasikan perangkat IoT untuk pengumpulan data tanah secara langsung, lalu melakukan pra pemrosesan data sebelum digunakan untuk melatih model. 
+            • Membandingkan dan mengevaluasi performa model menggunakan metrik seperti akurasi dengan hasil 87%. 
+            • Mempresentasikan hasil penelitian dan mempertahankannya didepan dosen penguji. 
         `,
   },
 ];
