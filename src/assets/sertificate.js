@@ -5,6 +5,8 @@ import sertificate3 from "../assets/sertifikat3.jpg";
 import sertificate4 from "../assets/sertifikat4.jpg";
 import sertificate5 from "../assets/bnspSMK.jpg";
 import sertificate6 from "../assets/sertifikat_pkl.jpg";
+import panitia from "../assets/panitia.png";
+import toefl from "../assets/toefl.jpeg";
 
 const sertificate = [
   {
@@ -39,6 +41,16 @@ const sertificate = [
   },
   {
     s_no: "07",
+    s_name: "Panitia Robotic Kompetition",
+    s_img: panitia,
+  },
+  {
+    s_no: "08",
+    s_name: "TOEFL",
+    s_img: toefl,
+  },
+  {
+    s_no: "09",
     s_name: "BNSP",
     s_img: sertificate5,
   },
